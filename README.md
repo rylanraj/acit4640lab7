@@ -33,7 +33,8 @@ ansible-playbook -i inventory/hosts.yml --private-key=~/.ssh/aws playbook.yml
 ## Additional Notes
 
 - Ensure that the files referenced in the playbook, such as `files/nginx.conf` and `templates/index.html.j2`, exist in the appropriate directories relative to your playbook.
-![image](https://github.com/user-attachments/assets/7a4e313a-c144-49bc-8c61-9181dd5740a1)
+![image](https://github.com/user-attachments/assets/2d6c4f32-4e05-48c6-a1be-4977c52048cd)
+
 
 
 
