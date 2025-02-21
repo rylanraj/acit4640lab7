@@ -10,7 +10,7 @@
 
     - name: Create directory structure for web documents
       file:
-        path: "/var/www/html"
+        path: "/web/html"
         state: directory
         owner: www-data
         group: www-data
@@ -33,7 +33,7 @@
     - name: Generate index.html file from template
       template:
         src: ./templates/index.html.j2
-        dest: /var/www/html/index.html
+        dest: /web/html/index.html
         owner: www-data
         group: www-data
         mode: '0644'
